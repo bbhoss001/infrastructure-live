@@ -2,7 +2,6 @@ terraform {
     source = "git::https://github.com/bbhoss001/infrastructure-modules.git//vpc?ref=main"
 }
 
-
 include "root" {
   path = find_in_parent_folders()
 }
