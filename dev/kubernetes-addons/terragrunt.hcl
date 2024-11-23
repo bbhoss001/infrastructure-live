@@ -1,5 +1,5 @@
 terraform {
-    source = "../../../infrastructure-modules/kubernetes-addons"
+    source = "git::https://github.com/bbhoss001/infrastructure-modules.git//kubernetes-addons?ref=main"
 }
 
 include "root" {
